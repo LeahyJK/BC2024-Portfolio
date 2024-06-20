@@ -29,7 +29,15 @@ h2{
     width: 300px;
     height: auto;
     justify-content: flex-start;
+    padding: 5px;
+    transition: ease 2s;
 }
+
+/* .proj-link:hover{
+    width: 400px;
+    height: auto;
+    transition: ease 2s;
+} */
 
 body{
     /* border: 5px solid red; */
