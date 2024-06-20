@@ -4,6 +4,10 @@ header{
     text-align: center;
 }
 
+body{
+    margin: 0px;
+}
+
 .navbar{
     justify-content: space-evenly;
     display: flex;
@@ -38,10 +42,6 @@ h2{
     transition: ease 2s;
 }
 
-body{
-    margin: 5px ;
-}
-
 .section{
     width: fit-content;
     padding: 5px;
@@ -55,8 +55,6 @@ body{
 hr{
     width: 300px;
 }
-
-
 
 #Annotation{
     justify-content: center;
