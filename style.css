@@ -9,7 +9,7 @@ header{
     display: flex;
 }
 .navBut{
-    color: cornflowerblue;
+    color: deepskyblue;
     text-decoration: none;
     font-size: 17px;
     transition: ease 500ms;
@@ -18,6 +18,7 @@ header{
 .navBut:hover{
     font-size: 20px;
     transition: ease 500ms;
+    color: aqua;
 }
 
 h2{
@@ -49,6 +50,8 @@ body{
 .section{
     width: 600px;
     padding: 5px;
+    border: 5px;
+    margin: 5px;
 }
 
 hr{
@@ -69,8 +72,22 @@ hr{
     transition: ease 1s;
 }
 
+#Story-Project,
+#Plains-Project{
+    width: 260px;
+    height: auto;
+    transition: ease 1s;
+}
+
+#Story-Project:hover,
+#Plains-Project:hover{
+    width: 300px;
+    height: auto;
+    transition: ease 1s;
+}
+
 .home-page, 
 .past-work{
     background-color: #401b46;
-    color: cornflowerblue;
+    color: white;
 }
