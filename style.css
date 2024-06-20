@@ -7,16 +7,20 @@ header{
 .navbar{
     justify-content: space-evenly;
     display: flex;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
 }
 .navBut{
     color: deepskyblue;
     text-decoration: none;
     font-size: 17px;
     transition: ease 500ms;
+    padding: 5px;
 }
 
 .navBut:hover{
-    font-size: 20px;
+    font-size: 22px;
     transition: ease 500ms;
     color: aqua;
 }
@@ -34,29 +38,25 @@ h2{
     transition: ease 2s;
 }
 
-/* .proj-link:hover{
-    width: 400px;
-    height: auto;
-    transition: ease 2s;
-} */
-
 body{
-    /* border: 5px solid red; */
     margin: 5px ;
-    padding: 5px;
-    /* background-image: url(''); */
 }
 
 .section{
-    width: 600px;
+    width: fit-content;
     padding: 5px;
     border: 5px;
     margin: 5px;
+    background-color: goldenrod;
+    border-radius: 9px;
+    color: black;
 }
 
 hr{
     width: 300px;
 }
+
+
 
 #Annotation{
     justify-content: center;
@@ -73,21 +73,25 @@ hr{
 }
 
 #Story-Project,
-#Plains-Project{
+#Plains-Project,
+#Quiz-Project{
     width: 260px;
     height: auto;
     transition: ease 1s;
 }
 
 #Story-Project:hover,
-#Plains-Project:hover{
+#Plains-Project:hover,
+#Quiz-Project:hover{
     width: 300px;
     height: auto;
     transition: ease 1s;
 }
 
 .home-page, 
-.past-work{
+.past-work,
+.contacts-page,
+.skills-page{
     background-color: #401b46;
     color: white;
 }
