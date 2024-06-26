@@ -4,17 +4,21 @@ header{
     text-align: center;
 }
 
-body{
-    margin: 0px;
-}
-
 .navbar{
     justify-content: space-evenly;
     display: flex;
     padding: 5px;
+    margin: 5px;
     background-color: black;
     border-radius: 10px;
 }
+
+body{
+    margin: 0px;
+    background-color: #401b46;
+
+}
+
 .navBut{
     color: deepskyblue;
     text-decoration: none;
@@ -46,25 +50,36 @@ h2{
     width: fit-content;
     padding: 5px;
     border: 5px;
-    margin: 5px;
+    margin: 10px;
     background-color: goldenrod;
     border-radius: 9px;
     color: black;
+    box-shadow: 5px 5px;
 }
 
 hr{
     width: 300px;
 }
 
-#Annotation{
+#Prof-Pic{
+    display: grid;
     justify-content: center;
     height: auto;
     width: 150px;
-    border: 5px;
     transition: ease 1s;
+    /* border: red 2px solid; */
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 5px 5px black;
 }
 
-#Annotation:hover{
+#BMS{
+    height: auto;
+    width: 150px;
+    margin: 10px;
+}
+
+#Prof-Pic:hover{
     width: 200px;
     height: auto;
     transition: ease 1s;
@@ -89,7 +104,17 @@ hr{
 .home-page, 
 .past-work,
 .contacts-page,
-.skills-page{
-    background-color: #401b46;
+.skills-page,
+.Exp-page{
     color: white;
+}
+
+body button{
+    display: block;
+    justify-content: center;
+    color: black;
+    background-color: goldenrod;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px;
 }
