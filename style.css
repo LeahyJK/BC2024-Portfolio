@@ -11,26 +11,29 @@ header{
     margin: 5px;
     background-color: black;
     border-radius: 10px;
+    
 }
 
 body{
     margin: 0px;
-    background-color: #401b46;
-
+    background-color: rgb(126, 70, 29);
+    /* display: flex; */
 }
 
 .navBut{
-    color: deepskyblue;
+    color: rgb(176, 218, 228);
     text-decoration: none;
     font-size: 17px;
     transition: ease 500ms;
     padding: 5px;
+    box-shadow: 4px 4px rgb(126, 52, 29);
+    border-radius: 5px;
 }
 
 .navBut:hover{
     font-size: 22px;
     transition: ease 500ms;
-    color: aqua;
+    color: rgb(89, 172, 180);
 }
 
 h2{
@@ -41,21 +44,26 @@ h2{
 .proj-link{
     width: 300px;
     height: auto;
-    justify-content: flex-start;
+    justify-self: center;
     padding: 5px;
     transition: ease 2s;
 }
 
 .section{
+    justify-self: center;
     width: fit-content;
     padding: 5px;
     border: 5px;
     margin: 10px;
-    background-color: goldenrod;
+    background-color: rgb(176, 218, 228);
     border-radius: 9px;
-    color: black;
+    color: rgb(0, 0, 0);
     box-shadow: 5px 5px;
 }
+
+/* .section:hover{
+    
+} */
 
 hr{
     width: 300px;
@@ -63,7 +71,7 @@ hr{
 
 #Prof-Pic{
     display: grid;
-    justify-content: center;
+    justify-self: center;
     height: auto;
     width: 150px;
     transition: ease 1s;
@@ -73,10 +81,10 @@ hr{
     box-shadow: 5px 5px black;
 }
 
-#BMS{
-    height: auto;
-    width: 150px;
-    margin: 10px;
+.exp-image{
+    height: 90px;
+    width: auto;
+
 }
 
 #Prof-Pic:hover{
@@ -106,15 +114,69 @@ hr{
 .contacts-page,
 .skills-page,
 .Exp-page{
-    color: white;
+    display: grid;
 }
 
 body button{
     display: block;
-    justify-content: center;
+    justify-self: center;
     color: black;
     background-color: goldenrod;
     border-radius: 10px;
     margin: 10px;
     box-shadow: 3px 3px;
+    width: fit-content;
+}
+
+.home-page{
+    background-image: url(large.5adfdcb68559d_windrunnerminimal.jpg.b9a7712fa1e3648a1429dea4f907bdee.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.past-work{
+    background-image: url(Shash_glyph.png.e87f1c6ecb65e75cc4874bf152e7d8a5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(196, 40, 40);
+}
+
+.contacts-page{
+    background-image: url(u8a529fydhu71.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(172, 21, 162);
+}
+
+.skills-page{
+    background-image: url(59liw0ye9hu71.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(155, 147, 154);
+}
+
+.Exp-page{
+    background-image: url(1_J9PC2ELKKr6uHVb_a7UNUA.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.work-sect{
+    background-color: rgb(255, 44, 86);
+}
+.con-sect{
+    background-color: rgb(193, 51, 215);
+}
+
+.skill-sect{
+    background-color: rgb(204, 201, 201);
+}
+
+.exp-sect{
+    background-color: rgb(252, 212, 80);
 }
