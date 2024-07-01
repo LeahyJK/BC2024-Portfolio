@@ -81,7 +81,7 @@ hr{
 
 .exp-image{
     height: 90px;
-    width: auto;
+    width: 180px;
 
 }
 
@@ -170,7 +170,7 @@ body button{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgb(34, 114, 8);
+    background-color: rgb(20, 75, 2);
     background-attachment: fixed;
 }
 
@@ -187,5 +187,5 @@ body button{
 }
 
 .exp-sect{
-    background-color: rgb(6, 177, 0);
+    background-color: rgb(21, 126, 2);
 }
