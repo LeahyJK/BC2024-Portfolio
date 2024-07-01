@@ -35,12 +35,13 @@ body{
 .navBut:hover{
     font-size: 22px;
     transition: ease 500ms;
-    color: rgb(89, 172, 180);
+    color: rgb(120, 225, 234);
 }
 
 h2{
     font-size: 20px;
     text-decoration: none;
+    font-family: 'Playwrite NZ';
 }
 
 .proj-link{
@@ -93,7 +94,7 @@ hr{
 #Story-Project,
 #Plains-Project,
 #Quiz-Project{
-    width: 260px;
+    width: 400px;
     height: auto;
     transition: ease 1s;
 }
@@ -101,7 +102,7 @@ hr{
 #Story-Project:hover,
 #Plains-Project:hover,
 #Quiz-Project:hover{
-    width: 300px;
+    width: 450px;
     height: auto;
     transition: ease 1s;
 }
@@ -141,6 +142,11 @@ body button{
     background-attachment: fixed;
 }
 
+.past-work p,
+.contacts-page p{
+    font-family: 'Bad Script'; font-weight: 600;
+}
+
 .contacts-page{
     background-image: url(u8a529fydhu71.png);
     background-size: contain;
@@ -173,6 +179,7 @@ body button{
 }
 .con-sect{
     background-color: rgb(193, 51, 215);
+    width: 400px;
 }
 
 .skill-sect{
